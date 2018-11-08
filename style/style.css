@@ -1,0 +1,61 @@
+
+body {
+  text-align: center;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  user-select: none;
+  overflow: hidden;
+}
+h1    {
+  font-family: 'Indie Flower', cursive;
+  color: white;
+  font-size: 350%;
+  margin: 0 auto;
+  margin-top: 7%;
+}
+.img {
+  margin-top: 2%;
+}
+#Queen1 {
+  width: 8vw;
+  height: 8vw;
+  filter: saturate(0.4);
+  border: 4px outset gray;
+  border-radius: 5px;
+}
+#Queen2 {
+  width: 16vw;
+  height: 16vw;
+  filter: saturate(0.6);
+  border: 5px outset gray;
+  border-radius: 5px;
+}
+#Queen3 {
+  width: 32vw;
+  height: 32vw;
+  filter: saturate(1);
+  border: 7px outset gray;
+  border-radius: 5px;
+}
+#Queen4 {
+  width: 16vw;
+  height: 16vw;
+  filter: saturate(0.6);
+  border: 5px outset gray;
+  border-radius: 5px;
+}
+#Queen5 {
+  width: 8vw;
+  height: 8vw;
+  filter: saturate(0.4);
+  border: 4px outset gray;
+  border-radius: 5px;
+}
+i {
+  transition: all 0.7s linear;
+  color: black;
+}
+i:hover {
+  cursor: pointer;
+  color: darkgray;
+}
