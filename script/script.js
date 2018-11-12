@@ -1,14 +1,21 @@
 function goLeft() {
-  const q0 = document.getElementById('Queen1');
-  const q1 = document.getElementById('Queen2');
-  const q2 = document.getElementById('Queen3');
-  const q3 = document.getElementById('Queen4');
-  const q4 = document.getElementById('Queen5');
+  var rack = document.images[4].src;
+
+  document.images[4].src = document.images[3].src;
+  document.images[3].src = document.images[2].src;
+  document.images[2].src = document.images[1].src;
+  document.images[1].src = document.images[0].src;
+  document.images[0].src = rack;
 }
+
 function goRight() {
-  const q0 = document.getElementById('Queen1');
-  const q1 = document.getElementById('Queen2');
-  const q2 = document.getElementById('Queen3');
-  const q3 = document.getElementById('Queen4');
-  const q4 = document.getElementById('Queen5');
+  var rack = document.images[0].src;
+
+  document.images[0].src = document.images[1].src;
+  document.images[1].src = document.images[2].src;
+  document.images[2].src = document.images[3].src;
+  document.images[3].src = document.images[4].src;
+  document.images[4].src = rack;
+
+
 }
